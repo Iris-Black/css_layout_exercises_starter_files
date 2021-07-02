@@ -6,3 +6,51 @@ body * {
 a {
   text-decoration: none;
 }
+
+.main{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0;
+
+}
+
+.block{
+  display: inline-block;
+  font-size: 0;
+}
+
+.top_left {
+  height: 200px;
+  width: 50%;
+  border: 1px solid black;
+  background-color: green;
+}
+
+.top_right {
+  height: 200px;
+  width: 50%;
+  border: 1px solid black;
+  background-color: blue;
+}
+
+.bottom_left{
+  width: 33.33%;
+  height: 300px;
+  border: 1px solid black;
+  background-color: darkgray;
+}
+
+.bottom_middle{
+  width: 33.33%;
+  height: 300px;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.bottom_right{
+  width: 33.33%;
+  height: 300px;
+  background-color: orange;
+  border: 1px solid black;
+}
